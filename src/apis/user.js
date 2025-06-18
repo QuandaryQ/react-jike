@@ -1,10 +1,10 @@
 import {request} from "@/utils";
 
-export const loginAPI=(params)=>{
+export const loginAPI=(data)=>{
     return request({
         url:'/authorizations',
         method:'POST',
-        data:params
+        data:data
     })
 }
 
